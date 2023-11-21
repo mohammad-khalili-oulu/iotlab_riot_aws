@@ -18,24 +18,14 @@ Application Layer: AWS Server Management of Collected Information
     Lastly, the AWS server was utilized within the application layer to efficiently manage and process the amassed data.
     Ref: https://www.youtube.com/watch?v=TUTqYEZZUdc
 
-The subsequent sections provide detailed insights into each of these stages:
-Sensor Layer
-
-This phase concentrated on the foundational element of our project: capturing environmental data through a suite of sensors available via IoT-Lab. The integration process and utilization of resources from this repository formed the backbone of our data acquisition strategy.
 
 ## Board
-This source code is used for the two first tutorials "First Steps" on the IoT-LAB Website.
-
-It provides the following features:
-
-    read sensors
-    send a radio packet with CSMA MAC layer implementation
-    blink LEDs (red, green, blue) with a 1hz period
-    get nodes UID and match it with real node type and number using {UID: node} table
-    i2c interact with control_node to get time
+In this project, we utilized M3 boards of iot-lab.info and we get the required configuration from the [https://github.com/iot-lab/openlab/blob/master/platform/iotlab-m3/iotlab-m3_net.c]
+It provides some required information and codes for reading sensors, sending a radio packet with CSMA MAC layer implementation, and getting nodes' UID (used to communicate with neighbor nodes).
 
 
 ## Sensor Layer
+This phase concentrated on the foundational element of our project: capturing environmental data through a suite of sensors available via IoT-Lab. The integration process and utilization of resources from this repository formed the backbone of our data acquisition strategy.
 
 
 The sensor layer serves as the foundational component for gathering environmental data crucial to this IoT project. This phase involves utilizing various sensors available through IoT-Lab to collect essential information about the environment.
