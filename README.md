@@ -21,10 +21,12 @@ Application Layer: AWS Server Management of Collected Information
 ## Getting Started
 
 To run this project, follow these steps:
-1. Setting up IoT-Lab Account and SSH Key
+1. Setting up IoT-Lab Account and SSH Key (for more information see https://www.iot-lab.info/docs/getting-started/ssh-access/)
 
     Create an Account: First, create an account on IoT-Lab.
+   
     Generate RSA Key: Use the command ssh-keygen -t rsa to generate an RSA key.
+   
     Add Key to IoT-Lab: Place the obtained key into your IoT-Lab account settings. Refer to this guide for detailed instructions.
 
 Connect to the IoT-Lab website using the following SSH command:
