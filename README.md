@@ -20,7 +20,7 @@ Application Layer: AWS Server Management of Collected Information
 
 
 ## Board
-In this project, we utilized M3 boards of iot-lab.info and we get the required configuration from the [https://github.com/iot-lab/openlab/blob/master/platform/iotlab-m3/iotlab-m3_net.c]
+In this project, we utilized M3 boards of iot-lab.info and we got the required configuration from the [https://github.com/iot-lab/openlab/blob/master/platform/iotlab-m3/iotlab-m3_net.c]
 It provides some required information and codes for reading sensors, sending a radio packet with CSMA MAC layer implementation, and getting nodes' UID (used to communicate with neighbor nodes).
 
 
@@ -31,8 +31,7 @@ This phase concentrated on the foundational element of our project: capturing en
 The sensor layer serves as the foundational component for gathering environmental data crucial to this IoT project. This phase involves utilizing various sensors available through IoT-Lab to collect essential information about the environment.
 Sensor Selection and Integration
 
-The selection of sensors was meticulously executed to capture a comprehensive range of environmental parameters relevant to the project's objectives. Leveraging the information provided in this link, a selection of sensors including temperature, humidity, light sensors, and possibly others were integrated into the IoT infrastructure.
-Data Collection and Processing
+The selection of sensors was meticulously executed to capture a comprehensive range of environmental parameters relevant to the project's objectives. Leveraging the information provided in this link, a selection of sensors including temperature ("42.5 + value / 480.0" was used to convert the sensed value to a centigrade degree), humidity ("value / 4096.0"), light sensors (in lux).
 
 Each sensor was configured to collect specific data points according to predefined intervals or trigger conditions. The collected data was processed, cleaned, and formatted to ensure accuracy and consistency, ready for transmission through the network layer.
 Implementation Details
