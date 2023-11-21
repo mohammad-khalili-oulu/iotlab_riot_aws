@@ -1,7 +1,6 @@
 # Mini Project #1 for IoT Course
 
 This project encompasses a series of essential steps:
-
     Sensor Layer: Sensing the Environment
         Utilizing sensors available through IoT-Lab, our initial phase involved gathering crucial environmental data. We referred to the information provided in this link to facilitate this process. 
         Ref: https://github.com/iot-lab/openlab/blob/master/appli/iotlab_examples/tutorial/main.c
