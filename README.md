@@ -18,6 +18,41 @@ Application Layer: AWS Server Management of Collected Information
     Lastly, the AWS server was utilized within the application layer to efficiently manage and process the amassed data.
     Ref: https://www.youtube.com/watch?v=TUTqYEZZUdc
 
+## Getting Started
+
+To run this project, follow these steps:
+1. Setting up IoT-Lab Account and SSH Key
+
+    Create an Account: First, create an account on IoT-Lab.
+    Generate RSA Key: Use the command ssh-keygen -t rsa to generate an RSA key.
+    Add Key to IoT-Lab: Place the obtained key into your IoT-Lab account settings. Refer to this guide for detailed instructions.
+
+Connect to the IoT-Lab website using the following SSH command:
+
+
+ssh <user_id>@saclay.iot-lab.info
+
+2. Clone RIOT Repository
+
+Clone the RIOT repository using the command:
+
+
+git clone https://github.com/RIOT-OS/RIOT
+
+3. Navigate to RIOT Examples
+
+Change the directory to RIOT's examples folder:
+
+
+cd RIOT/examples
+
+4. Clone This Project
+
+Clone this project into the examples directory of RIOT:
+
+
+git clone https://github.com/mohammad-khalili-oulu/iotlab_riot_aws.git
+
 
 ## Board
 In this project, we utilized M3 boards of iot-lab.info and we got the required configuration from the [https://github.com/iot-lab/openlab/blob/master/platform/iotlab-m3/iotlab-m3_net.c]
