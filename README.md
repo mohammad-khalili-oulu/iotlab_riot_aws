@@ -1,21 +1,21 @@
 # Mini Project #1 for IoT Course
 
 This project encompasses a series of essential steps:
-    Sensor Layer: Sensing the Environment
-        Utilizing sensors available through IoT-Lab, our initial phase involved gathering crucial environmental data. We referred to the information provided in this link to facilitate this process. 
-        Ref: https://github.com/iot-lab/openlab/blob/master/appli/iotlab_examples/tutorial/main.c
+Sensor Layer: Sensing the Environment
+    Utilizing sensors available through IoT-Lab, our initial phase involved gathering crucial environmental data. We referred to the information provided in this link to facilitate this process. 
+    Ref: https://github.com/iot-lab/openlab/blob/master/appli/iotlab_examples/tutorial/main.c
 
-    Network Layer: Multi-hop Transmission to the Border Gateway
-        Once the data was collected, our focus shifted to the network layer. Employing techniques outlined in this repository, we established a multi-hop transmission method towards the border gateway.
-        Ref: https://github.com/RIOT-OS/RIOT/tree/master/examples/gcoap
+Network Layer: Multi-hop Transmission to the Border Gateway
+    Once the data was collected, our focus shifted to the network layer. Employing techniques outlined in this repository, we established a multi-hop transmission method towards the border gateway.
+    Ref: https://github.com/RIOT-OS/RIOT/tree/master/examples/gcoap
 
-    Network Layer: Sending Information to AWS Cloud
-        Due to IoT-Lab's provision of IPv6 for external connections, we directed our data transmission towards AWS Cloud using strategies delineated in this repository.
-        Ref: https://github.com/RIOT-OS/RIOT/tree/master/examples/gnrc_border_router
+Network Layer: Sending Information to AWS Cloud
+    Due to IoT-Lab's provision of IPv6 for external connections, we directed our data transmission towards AWS Cloud using strategies delineated in this repository.
+    Ref: https://github.com/RIOT-OS/RIOT/tree/master/examples/gnrc_border_router
 
-    Application Layer: AWS Server Management of Collected Information
-        Lastly, the AWS server was utilized within the application layer to efficiently manage and process the amassed data.
-        Ref: https://www.youtube.com/watch?v=TUTqYEZZUdc
+Application Layer: AWS Server Management of Collected Information
+    Lastly, the AWS server was utilized within the application layer to efficiently manage and process the amassed data.
+    Ref: https://www.youtube.com/watch?v=TUTqYEZZUdc
 
 The subsequent sections provide detailed insights into each of these stages:
 Sensor Layer
