@@ -23,6 +23,17 @@ Sensor Layer
 
 This phase concentrated on the foundational element of our project: capturing environmental data through a suite of sensors available via IoT-Lab. The integration process and utilization of resources from this repository formed the backbone of our data acquisition strategy.
 
+## Board
+This source code is used for the two first tutorials "First Steps" on the IoT-LAB Website.
+
+It provides the following features:
+
+    read sensors
+    send a radio packet with CSMA MAC layer implementation
+    blink LEDs (red, green, blue) with a 1hz period
+    get nodes UID and match it with real node type and number using {UID: node} table
+    i2c interact with control_node to get time
+
 
 ## Sensor Layer
 
